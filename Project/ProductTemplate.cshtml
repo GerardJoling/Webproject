@@ -1,0 +1,175 @@
+﻿<html>
+<head>
+    <title></title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale-1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <style>
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            overflow-y: scroll;
+            display: block;
+        }
+
+        td, th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #dddddd;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a href="#" class="navbar-brand">Cyberdine</a>
+            </div>
+            <div>
+                <ul class="nav navbar-nav">
+                    <li><a href="~/Home.cshtml">Home</a></li>
+                    <li><a href="~/CRUD.cshtml">CRUD</a></li>
+                    <li class="active"><a href="#">Product</a></li>
+                    <li><a href="~/Forum.cshtml">Forum</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>﻿
+
+    <div style="position:absolute; left:25px; right:100px; top:45px;">
+        <h1>Product Name</h1>
+    </div>
+
+    <div style="position:absolute; left:25px; right:100px;">
+        <h3>Description</h3>
+        <div style="position:relative;">
+            <div id="bodydesc" style=" margin-right:auto; width:700px; height: 165px; overflow-y: scroll; border:1px solid black;">
+                <p>
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.""Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui.um dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.""Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui.
+                </p>
+            </div>
+                <img src="~/Images/Image 1.jpg" style="position: absolute; left:750px; right:0px; top:0px; border:1px solid black;" height="165">
+            </div>
+        </div>
+
+    <div style="position:absolute; left:25px; right:100px; top:310px;">
+        <h3>Product Specifications</h3>
+        <table style="width:475px; height: 310px; border:1px solid black;">
+            <tr>
+                <th>Technical Specifications</th>
+                <th></th>
+            </tr>
+            <tr>
+                <td>Alfreds Futterkiste</td>
+                <td>Maria Anders</td>
+            </tr>
+            <tr>
+                <td>Centro comercial Moctezuma</td>
+                <td>Francisco Chang</td>
+            </tr>
+            <tr>
+                <td>Ernst Handel</td>
+                <td>Roland Mendel</td>
+            </tr>
+            <tr>
+                <td>Island Trading</td>
+                <td>Helen Bennett</td>
+            </tr>
+            <tr>
+                <td>Laughing Bacchus Winecellars</td>
+                <td>Yoshi Tannamuri</td>
+            </tr>
+            <tr>
+                <td>Magazzini Alimentari Riuniti</td>
+                <td>Giovanni Rovelli</td>
+            </tr>
+            <tr>
+                <td>Magazzini Alimentari Riuniti</td>
+                <td>Giovanni Rovelli</td>
+            </tr>
+            <tr>
+                <td>Magazzini Alimentari Riuniti</td>
+                <td>Giovanni Rovelli</td>
+            </tr>
+        </table>
+    </div>
+
+    <div style="position:absolute; left:540px; right:100px; top:366px;">
+        <div class="sketchfab-embed-wrapper">
+            <iframe width="529" height="316" src="https://sketchfab.com/models/efd9244c04fd41879e3589d4aea1f128/embed" frameborder="0" allowvr allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" onmousewheel=""></iframe>
+        </div>
+    </div>
+
+    <div style="position:absolute; left:25px; right:100px; top:707px">
+        <h3>Robot Code</h3>
+        <div style="position:relative;">
+            <textarea rows="16" cols="100">
+                Code
+             </textarea>
+        </div>
+    </div>
+
+    <div style="position:absolute; left:790px; right:100px; top:707px">
+        <h3>Components</h3>
+        <table style="width:280px; height:324px; border:1px solid black;">
+            <tr>
+                <th>Component</th>
+                <th>Amount</th>
+            </tr>
+            <tr>
+                <td>Alfreds Futterkiste</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>Centro comercial Moctezuma</td>
+                <td>45</td>
+            </tr>
+            <tr>
+                <td>Ernst Handel</td>
+                <td>56</td>
+            </tr>
+            <tr>
+                <td>Island Trading</td>
+                <td>33</td>
+            </tr>
+            <tr>
+                <td>Laughing Bacchus Winecellars</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>Magazzini Alimentari Riuniti</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>Magazzini Alimentari Riuniti</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>Magazzini Alimentari Riuniti</td>
+                <td>Giovanni Rovelli</td>
+            </tr>
+        </table>
+    </div>
+
+    <div style="position:absolute; left:25px; right:100px; top:1100px">
+        <h3>Photos</h3>
+        <img src="~/Images/Image 1.jpg" style="position: absolute; left:0px; right:0px; top:75px; border:1px solid black;" height="200">
+        <img src="~/Images/Image 1.jpg" style="position: absolute; left:375px; right:0px; top:75px; border:1px solid black;" height="200">
+        <img src="~/Images/Image 1.jpg" style="position: absolute; left:750px; right:0px; top:75px; border:1px solid black;" height="200">
+    </div>
+
+    <div style="position:absolute; left:25px; right:100px; top:1400px">
+        <h3>Videos</h3>
+        <div style="position:absolute; left:340px;">
+            <iframe width="420" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" ></iframe>
+        </div>
+    </div>
+
+</body>
+</html>

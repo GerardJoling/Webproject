@@ -5,11 +5,6 @@
 @using System.Data.OleDb;
 @using System.Data.SqlClient;
 @{string label1 = "";}
-@{//protected void signin(object sender, EventArgs e)
-        {
-            Response.Write("Hello World!!!");
-        }
-    }
 @{
     if (IsPost)
     {
@@ -43,7 +38,7 @@
         {
             SqlConnection con = new SqlConnection();
             con.ConnectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\\Database1.mdf;Integrated Security=True";
-            label1 = "Your account has been created.";
+            label1 = "Your account has been created.";  
             con.Open();
             SqlCommand cmd = new SqlCommand("UserAdd", con);
             cmd.CommandType = CommandType.StoredProcedure;
